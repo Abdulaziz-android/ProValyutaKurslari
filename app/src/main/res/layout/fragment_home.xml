@@ -60,7 +60,7 @@
             android:background="@drawable/linearlayout_back"
             android:orientation="vertical"
             android:paddingHorizontal="20dp"
-            android:paddingVertical="30dp">
+            android:paddingTop="30dp">
 
             <TextView
                 android:layout_width="match_parent"

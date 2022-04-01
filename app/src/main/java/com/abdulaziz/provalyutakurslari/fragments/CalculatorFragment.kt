@@ -106,7 +106,7 @@ class CalculatorFragment : Fragment(), AdapterView.OnItemSelectedListener {
 
         if (buySum.toDouble() < 1.0 && buySum.substring(0, 1) != "0") {
             binding.valueBuyTv.text = "${buySum.substring(0, 7)}e-5"
-        } else binding.valueBuyTv.text = cellSum
+        } else binding.valueBuyTv.text = buySum
         if (cellSum.toDouble() < 1.0 && cellSum.substring(0, 1) != "0") {
             binding.valueSellTv.text = "${cellSum.substring(0, 7)}e-5"
         } else binding.valueSellTv.text = cellSum
